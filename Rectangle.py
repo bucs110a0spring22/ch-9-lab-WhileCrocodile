@@ -7,7 +7,7 @@ class Rectangle:
     h: (int) height of the rectangle
     w: (int) width of the rectangle
     '''
-    init_vars = [0 if var < 0 else var for var in [x, y, h, w]]
+    init_vars = [0 if var < 0 else var for var in (x, y, h, w)]
     self.x = init_vars[0]
     self.y = init_vars[1]
     self.height = init_vars[2]
